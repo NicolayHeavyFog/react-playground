@@ -1,0 +1,37 @@
+{
+  "name": "new-reddit",
+  "version": "1.0.0",
+  "description": "my react playground",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "env NODE_ENV=development webpack --config webpack.config.js",
+    "build:prod": "env NODE_ENV=production webpack --config webpack.config.js",
+    "dev": "env NODE_ENV=development webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git@github.com/NicolayHeavyFog/react-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolayHeavyFog/react-playground/issues"
+  },
+  "homepage": "https://github.com/NicolayHeavyFog/react-playground#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^4.5.2",
+    "nodemon": "^2.0.19",
+    "ts-loader": "^6.2.1",
+    "typescript": "^4.6.4",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
